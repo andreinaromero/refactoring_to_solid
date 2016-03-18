@@ -18,6 +18,7 @@ public class TaskManager {
 	}
 
 	private static void closeTasks(List<Task> tasks) {
+		System.out.println("***Cerrando las tareas");
 		for (Task task: tasks) {
 			task.close();
 		}
