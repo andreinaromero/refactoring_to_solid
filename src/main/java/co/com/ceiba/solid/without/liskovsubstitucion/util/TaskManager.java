@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.liskovsubstitucion;
+package co.com.ceiba.solid.without.liskovsubstitucion.util;
 
 import java.util.ArrayList;
 import java.util.List;

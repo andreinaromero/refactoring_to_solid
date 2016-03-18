@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.dependencyinversion;
+package co.com.ceiba.solid.without.dependencyinversion.util;
 
 public class Policy {
 

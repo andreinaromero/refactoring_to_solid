@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.dependencyinversion;
+package co.com.ceiba.solid.without.dependencyinversion.util;
 
 public class Log4jLogger {
 	public static final String DEBUG = "Debug";

@@ -1,5 +1,8 @@
 package co.com.ceiba.solid.without.openclosed;
 
+import co.com.ceiba.solid.without.openclosed.util.Circle;
+import co.com.ceiba.solid.without.openclosed.util.Rectangle;
+
 public class AreaCalculator {
 	public double area(Object[] shapes)
 	{

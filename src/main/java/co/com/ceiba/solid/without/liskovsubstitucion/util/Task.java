@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.liskovsubstitucion;
+package co.com.ceiba.solid.without.liskovsubstitucion.util;
 
 public class Task {
 	protected static final String CLOSED = "Closed";

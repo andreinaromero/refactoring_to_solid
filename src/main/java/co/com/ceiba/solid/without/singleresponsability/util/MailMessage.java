@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.singleresponsability;
+package co.com.ceiba.solid.without.singleresponsability.util;
 
 public class MailMessage {
 

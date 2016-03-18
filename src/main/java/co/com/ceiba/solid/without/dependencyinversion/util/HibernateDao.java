@@ -1,6 +1,6 @@
-package co.com.ceiba.solid.without.dependencyinversion;
+package co.com.ceiba.solid.without.dependencyinversion.util;
 
-import static co.com.ceiba.solid.without.dependencyinversion.Log4jLogger.*;
+import static co.com.ceiba.solid.without.dependencyinversion.util.Log4jLogger.*;
 
 public class HibernateDao {
 

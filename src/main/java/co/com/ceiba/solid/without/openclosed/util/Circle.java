@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.openclosed;
+package co.com.ceiba.solid.without.openclosed.util;
 
 public class Circle {
 

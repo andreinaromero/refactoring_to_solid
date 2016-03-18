@@ -1,5 +1,11 @@
 package co.com.ceiba.solid.without.singleresponsability;
 
+import co.com.ceiba.solid.without.singleresponsability.util.DatabaseLayer;
+import co.com.ceiba.solid.without.singleresponsability.util.MailMessage;
+import co.com.ceiba.solid.without.singleresponsability.util.SmtpClient;
+import co.com.ceiba.solid.without.singleresponsability.util.User;
+import co.com.ceiba.solid.without.singleresponsability.util.ValidationException;
+
 public class UserService {
 	private DatabaseLayer database;
 	private SmtpClient smtpClient;
