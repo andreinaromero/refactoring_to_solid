@@ -4,9 +4,12 @@ import co.com.ceiba.solid.without.dependencyinversion.util.HibernateDao;
 import co.com.ceiba.solid.without.dependencyinversion.util.Policy;
 
 public class PolicyService {
-	HibernateDao dao = new HibernateDao();
+	private HibernateDao dao = new HibernateDao();
 	
 	public void createPolicy(Policy policy) {
+		
+		//Manipula datos de policy...
+		
 		dao.persistPolicy(policy);
 	}
 	
