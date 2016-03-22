@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.openclosed.test;
+package co.com.ceiba.solid.without.openclosed;
 
 import org.junit.Test;
 

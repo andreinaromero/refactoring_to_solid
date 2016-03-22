@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.singleresponsability.test;
+package co.com.ceiba.solid.without.singleresponsability;
 
 import org.junit.Test;
 

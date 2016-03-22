@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.interfacesegregation.test;
+package co.com.ceiba.solid.without.interfacesegregation;
 
 import org.junit.Test;
 
