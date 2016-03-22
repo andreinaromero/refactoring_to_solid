@@ -1,15 +1,28 @@
 package co.com.ceiba.solid.without.openclosed.util;
 
-public class Rectangle {
+public class Rectangle extends Shape {
 
+	private int width;
+	private int height;
+	
 	public int getWidth() {
 		// TODO Auto-generated method stub
-		return 0;
+		return width;
 	}
 
 	public int getHeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return height;
+	}
+
+	public Rectangle(int width, int height) {
+		this.width = width;
+		this.height = height;
+	}
+
+	@Override
+	public double calculateArea() {
+		return getWidth()*getHeight();
 	}
 
 }
