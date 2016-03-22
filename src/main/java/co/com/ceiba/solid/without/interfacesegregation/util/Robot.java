@@ -1,4 +1,4 @@
-package co.com.ceiba.solid.without.interfacesegregation;
+package co.com.ceiba.solid.without.interfacesegregation.util;
 
 public class Robot implements IWorker {
 

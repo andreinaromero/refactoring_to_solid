@@ -1,5 +1,7 @@
 package co.com.ceiba.solid.without.interfacesegregation;
 
+import co.com.ceiba.solid.without.interfacesegregation.util.IWorker;
+
 public class Manager {
 	IWorker worker;
 
