@@ -15,11 +15,11 @@ public class AreaCalculatorTest {
 		//Arrange
 		Object[] shapes = new Shape[2];
 		shapes[0] = new Rectangle(10, 5); //50
-		shapes[1] = new Circle(3); //28.7
+		shapes[1] = new Circle(3); //28.274333882308138
 		//Act
 		AreaCalculator areaCalculator = new AreaCalculator();
 		double result = areaCalculator.area(shapes);
 		//Assert
-		assertEquals("El total de las áreas debe ser 50: ", result, 50, 0);
+		assertEquals("El total de las áreas debe ser 78.27: ", 78.27, result, 1);
 	}
 }
