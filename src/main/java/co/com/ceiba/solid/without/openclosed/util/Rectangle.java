@@ -1,6 +1,6 @@
 package co.com.ceiba.solid.without.openclosed.util;
 
-public class Rectangle extends Shape {
+public class Rectangle {
 
 	private int width;
 	private int height;
@@ -20,7 +20,6 @@ public class Rectangle extends Shape {
 		this.height = height;
 	}
 
-	@Override
 	public double calculateArea() {
 		return getWidth()*getHeight();
 	}

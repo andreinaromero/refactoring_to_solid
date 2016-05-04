@@ -5,7 +5,6 @@ import org.junit.Test;
 import co.com.ceiba.solid.without.openclosed.AreaCalculator;
 import co.com.ceiba.solid.without.openclosed.util.Circle;
 import co.com.ceiba.solid.without.openclosed.util.Rectangle;
-import co.com.ceiba.solid.without.openclosed.util.Shape;
 
 import static org.junit.Assert.*;
 
@@ -13,7 +12,7 @@ public class AreaCalculatorTest {
 	@Test
 	public void shouldCalculateRectanguleAndCircleAreas() {
 		//Arrange
-		Object[] shapes = new Shape[2];
+		Object[] shapes = new Object[2];
 		shapes[0] = new Rectangle(10, 5); //50
 		shapes[1] = new Circle(3); //28.274333882308138
 		//Act

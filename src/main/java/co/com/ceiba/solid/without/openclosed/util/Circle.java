@@ -1,6 +1,6 @@
 package co.com.ceiba.solid.without.openclosed.util;
 
-public class Circle extends Shape {
+public class Circle {
 	private int radius;
 	
 	public int getRadius() {
@@ -13,7 +13,6 @@ public class Circle extends Shape {
 	}
 
 
-	@Override
 	public double calculateArea() {
 		return getRadius() * getRadius() * Math.PI;
 	}
