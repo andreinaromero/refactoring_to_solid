@@ -20,8 +20,5 @@ public class Rectangle {
 		this.height = height;
 	}
 
-	public double calculateArea() {
-		return getWidth()*getHeight();
-	}
 
 }

@@ -13,8 +13,5 @@ public class Circle {
 	}
 
 
-	public double calculateArea() {
-		return getRadius() * getRadius() * Math.PI;
-	}
 
 }
